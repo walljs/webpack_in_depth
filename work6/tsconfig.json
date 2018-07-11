@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    // 构建出ES5版本的JavaScript， 与Vue的浏览器支持保持一致
+    "target": "es5",
+    // 开启严格模式， 这可以对'this'上的数据属性进行更严格的推断
+    "strict": true,
+    // TypeScript编译器输出的JavaScript采用ES2015模块化，使Tree Sharking生效
+    "module": "es2015",
+    "moduleResolution": "node"
+  }
+}
